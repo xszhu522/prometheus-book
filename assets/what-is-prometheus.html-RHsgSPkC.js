@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as t,c as o}from"./app-d7bHIUBF.js";const r={};function c(s,_){return t(),o("div")}const n=e(r,[["render",c],["__file","what-is-prometheus.html.vue"]]);export{n as default};

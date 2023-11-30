@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as r,c as t}from"./app-d7bHIUBF.js";const o={};function a(c,n){return r(),t("div")}const m=e(o,[["render",a],["__file","use-alertmanager-operator.html.vue"]]);export{m as default};
