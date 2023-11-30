@@ -8,3 +8,9 @@ npm-debug.log
 examples/localhost
 .DS_Store
 **/**/.DS_Store
+.idea
+
+node_modules/
+/.vuepress/.cache/
+/.vuepress/.temp/
+/.vuepress/dist/
