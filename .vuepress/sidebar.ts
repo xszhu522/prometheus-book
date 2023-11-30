@@ -134,7 +134,7 @@ export default sidebar({
         {
           text: "第6章 集群与高可用",
           prefix: "ha/",
-          link: "ha/",
+          link: "ha/READMD.md",
           collapsible: true,
           children: [
             "prometheus-local-storage.md",
@@ -166,7 +166,7 @@ export default sidebar({
         {
           text: "第8章 监控Kubernetes",
           prefix: "kubernetes/",
-          link: "kubernetes/",
+          link: "kubernetes/READMD.md",
           collapsible: true,
           children: [
             "kubernetes-with-minikube.md",
