@@ -1,22 +1,32 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import {hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://xszhu522.github.io",
+
+  favicon: "/favicon.ico",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "xszhu522",
+    url: "https://xszhu522.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: [
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/solid.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/brands.min.js",
+  ],
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  iconPrefix: "fa-",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  logo: "/avatar.webp",
 
-  docsDir: "src",
+  repo: "xszhu522/prometheus-book",
+
+  docsBranch: "vuepress-theme-hope",
+
+  docsDir: "",
 
   // navbar
   navbar,
@@ -24,29 +34,25 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "",
 
   displayFooter: true,
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
 
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
 
+  fullscreen: true,
+
   plugins: {
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "xszhu522/prometheus-book",
+      repoId: "R_kgDOKy7-KQ",
+      category: "Comment",
+      categoryId: "DIC_kwDOKy7-Kc4CbWmI",
     },
 
     // All features are enabled for demo, only preserve features you need here
@@ -83,7 +89,7 @@ export default hopeTheme({
       // katex: true,
 
       // install mathjax-full before enabling it
-      // mathjax: true,
+      mathjax: true,
 
       mark: true,
 

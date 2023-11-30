@@ -1,3 +1,23 @@
+---
+home: true
+icon: home fas
+title: 项目主页
+heroImage: /avatar.webp
+#bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+#bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+bgImageStyle:
+  background-attachment: fixed
+heroText: prometheus-book
+tagline: Prometheus操作指南
+actions:
+  - text: 开始阅读 💡
+    link: /Introduction.md
+    type: primary
+
+copyright: false
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+---
+
 # 目录
 
 * [全书组织](Introduction.md)

@@ -1,4 +1,4 @@
-## 使用Operator管理告警
+# 使用Operator管理告警
 
 ### 使用PrometheusRule定义告警规则
 
